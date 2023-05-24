@@ -1,7 +1,12 @@
+import Navigation from "./components/Navigation";
+
+import Porfolio from "./Portfolio";
+
 function App() {
   return (
     <>
-      <h1>hi ho</h1>
+      <Navigation />
+      <Porfolio />
     </>
   );
 }
