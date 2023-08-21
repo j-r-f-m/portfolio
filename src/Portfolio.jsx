@@ -8,7 +8,7 @@ export default function Porfolio() {
   return (
     <>
       {/* about me */}
-      <Container className="mt-5 ">
+      <Container fluid>
         <Row
           id="about-me"
           xs={1}
@@ -16,10 +16,10 @@ export default function Porfolio() {
           className="d-flex justify-content-center"
         >
           <Col className="d-flex justify-content-center">
-            <div>
+            <div className="d-flex align-items-center">
               <Image
                 style={{
-                  width: "100%",
+                  height: "70%",
                   objectFit: "cover",
                 }}
                 src="images/mountain_small.jpg"
@@ -54,7 +54,7 @@ export default function Porfolio() {
           <Col>
             <div>
               <h2>Projects</h2>
-              <Card style={{ width: "25rem", marginTop: "2rem" }}>
+              <Card style={{ width: "25rem", marginBottom: "2rem" }}>
                 <Card.Img variant="top" src="images/todo.jpg" />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -64,7 +64,7 @@ export default function Porfolio() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "25rem", marginTop: "2rem" }}>
+              <Card style={{ width: "25rem", marginBottom: "2rem" }}>
                 <Card.Img variant="top" src="images/todo.jpg" />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -74,7 +74,7 @@ export default function Porfolio() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "25rem", marginTop: "2rem" }}>
+              <Card style={{ width: "25rem", marginBottom: "2rem" }}>
                 <Card.Img variant="top" src="images/todo.jpg" />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
